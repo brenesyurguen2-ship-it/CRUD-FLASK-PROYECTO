@@ -75,7 +75,7 @@ def editar(id):
             break
 
 
-    # quitar remporalmente
+    # quitar temporalmente
     datos = [e for e in datos if e["id"] != id]
 
     with open("datos.json", "w", encoding="utf-8") as archivo:
